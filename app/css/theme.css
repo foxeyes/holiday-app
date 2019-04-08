@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: var(--color-theme-1);
+  color: var(--color-theme-2);
+}
+
+:root {
+  --color-theme-1: rgb(20, 20, 19);
+  --color-theme-2: rgb(253, 235, 75);
+
+  --color-code-1: rgb(139, 50, 28);
+  --color-code-2: rgb(27, 133, 101);
+  --color-code-3: rgb(150, 102, 0);
+  --color-code-4: rgb(36, 37, 37);
+  --color-code-5: rgb(228, 228, 228);
+
+  --color-error: rgb(252, 64, 64);
+
+  --color: var(--color-theme-2);
+  --bg-color: var(--color-theme-1);
+
+  --tap-zone-size: 36px;
+  --side-panel-width: 200px;
+
+  --ui-font-size: 16px;
+
+  --gap-min: 2px;
+  --gap-mid: 10px;
+  --gap-max: 20px;
+
+  --ui-radius: 2px;
+
+  --transition: 0.2s;
+
+  --left-panel-width: var(--side-panel-width);
+
+  --ui-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 800px) {
+  :root {
+    --left-panel-width: 0;
+  }
+}

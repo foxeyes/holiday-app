@@ -1,0 +1,4 @@
+[submodule "app/holiday"]
+	path = app/holiday
+	url = https://github.com/foxeyes/holiday
+	branch = master
