@@ -1,6 +1,7 @@
 import { HdElement, HdState, HdRouter } from '../holiday/core/holiday.js';
 import { } from '../holiday/elements/exports.js';
 import { } from '../components/components.js';
+import { } from '../sections/sections.js';
 
 import { ROUTES } from '../routing/app-routes.js';
 HdRouter.setRoutingMap(ROUTES);
@@ -37,6 +38,9 @@ class AppIndex extends HdElement {
         'section.title': val.options.title,
         'section.icon': val.options.icon,
       });
+      this.textContent = '';
+      let section = document.createElement(val.route + '-section');
+      this.appendChild(section);
     });
 
   }
