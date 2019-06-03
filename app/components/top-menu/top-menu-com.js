@@ -51,6 +51,7 @@ TopMenuCom.template = /*html*/ `
   }
 </style>
 <button-ui icon="home" route="basics">Basics</button-ui>
+<button-ui icon="cycle" route="lifecycle">Lifecycle</button-ui>
 <button-ui icon="template" route="templates">Templates</button-ui>
 <button-ui icon="state" route="state">State Management</button-ui>
 <button-ui icon="route" route="routing">App Routing</button-ui>

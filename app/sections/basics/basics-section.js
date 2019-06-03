@@ -48,16 +48,17 @@ BasicsSection.template = /*html*/ `
     width: 100%;
     border: 1px solid currentColor;
   }
-  .svg {
+  .balls {
     display: block;
-    object-position: center center;
     width: 100%;
-    height: 140px;
+    height: 240px;
+    object-fit: contain;
+    object-position: center center;
   }
 </style>
 <column-mkp>
 <h1>Holiday.js - lightweight and flexible UI-library for those who tired of all that js-frameworks</h1>
-<img class="svg" src="assets/img/sun.svg" alt="">
+<img class="balls" src="assets/img/ball.png" alt="">
 <h2>Concept</h2>
 <ul>
   <li>Minimal overhead upon a native web platform and DOM API</li>

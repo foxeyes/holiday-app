@@ -6,6 +6,11 @@ export const ROUTES = {
     title: 'Holiday.js Basics',
   },
 
+  'lifecycle': {
+    icon: 'cycle',
+    title: 'Component Lifecycle',
+  },
+
   'templates': {
     icon: 'template',
     title: 'Working with Templates',
