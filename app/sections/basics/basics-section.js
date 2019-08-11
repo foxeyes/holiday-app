@@ -4,37 +4,6 @@ class BasicsSection extends HdElement {
 
 }
 
-const EXAMPLE = `
-import { HdElement } from './core/hd-element.js';
-
-class MyComponent extends HdElement {
-  constructor() {
-    super();
-    this.state = {
-      imageURL: 'images/photo.jpg',
-      firstName: 'John',
-      secondName: 'Snow',
-    };
-  }
-}
-
-MyComponent.template = /*html*/ |str|
-<style>
-  :host {
-    display: block;
-    paddimg: 10px;
-    background - color: #fff;
-    color: #000;
-  }
-</style>
-<img bind="src: imageURL" />
-<div bind="textContent: firstName"></div>
-<div bind="textContent: secondName"></div>
-|str|;
-
-MyComponent.is = 'my-component';
-`;
-
 BasicsSection.template = /*html*/ `
 <style>
   :host {
@@ -57,8 +26,9 @@ BasicsSection.template = /*html*/ `
   }
 </style>
 <column-mkp>
-<h1>Holiday.js - lightweight and flexible UI-library for those who tired of all that js-frameworks</h1>
-<img class="balls" src="assets/img/ball.png" alt="">
+<image-mkp class="balls" src="assets/img/logo.svg"></image-mkp>
+<h1>Holiday.js</h1>
+<h2>lightweight and flexible UI-library for those who tired of all that js-frameworks</h2>
 <h2>Concept</h2>
 <ul>
   <li>Minimal overhead upon a native web platform and DOM API</li>
@@ -77,7 +47,7 @@ in dev-tools of your browser:
 <img class="screenshot" src="assets/img/devtools1.png">
 <space-mkp max></space-mkp>
 <h2>Component Code Example</h2>
-<code-mkp>${EXAMPLE}</code-mkp>
+<gist-embed id="351b4d58ec58c229cc12b26b9522c221"></gist-embed>
 <space-mkp max></space-mkp>
 <h2>Installation (using git)</h2>
 <code-mkp>git submodule add -b master https://github.com/foxeyes/holiday holiday</code-mkp>

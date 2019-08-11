@@ -1,1 +1,14 @@
 export { BasicsSection } from './basics/basics-section.js';
+export { TemplatesSection } from './templates/templates-section.js';
+export { LifecycleSection } from './lifecycle/lifecycle-section.js';
+export { StateSection } from './state/state-section.js';
+export { RoutingSection } from './routing/routing-section.js';
+export { StylingSection } from './styling/styling-section.js';
+export { ElementsSection } from './elements/elements-section.js';
+export { IconsSection } from './icons/icons-section.js';
+export { MonoSection } from './mono/mono-section.js';
+export { GraphSection } from './graph/graph-section.js';
+export { TriksSection } from './triks/triks-section.js';
+export { BenchmarksSection } from './benchmarks/benchmarks-section.js';
+export { ToolsSection } from './tools/tools-section.js';
+export { BrowsersSection } from './browsers/browsers-section.js';
