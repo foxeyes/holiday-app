@@ -3,7 +3,7 @@ export const ROUTES = {
   'basics': {
     icon: 'home',
     default: true,
-    title: 'Holiday.js Basics',
+    title: 'Basics',
   },
 
   'lifecycle': {
@@ -13,7 +13,7 @@ export const ROUTES = {
 
   'templates': {
     icon: 'template',
-    title: 'Working with Templates',
+    title: 'Templates',
   },
 
   'state': {
@@ -38,7 +38,7 @@ export const ROUTES = {
 
   'icons': {
     icon: 'icon',
-    title: 'Working with Icons',
+    title: 'Icons',
   },
 
   'mono': {
@@ -48,7 +48,7 @@ export const ROUTES = {
 
   'graph': {
     icon: 'graph',
-    title: 'Complex Data & HdGraph',
+    title: 'Complex Data',
   },
 
   'triks': {
@@ -68,13 +68,14 @@ export const ROUTES = {
 
   'browsers': {
     icon: 'browser',
-    title: 'Standards & Browser Support',
+    title: 'Browser Support',
   },
 
   'error': {
     icon: 'error',
     title: 'Wrong path...',
     error: true,
+    hideFromMenu: true,
   },
 
 };

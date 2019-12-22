@@ -1,7 +1,7 @@
 export const STATE_MAP = {
 
   ui: {
-    route: {
+    routing: {
       type: Object,
       value: null,
     }
