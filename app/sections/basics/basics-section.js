@@ -48,7 +48,7 @@ in dev-tools of your browser:
 <img class="screenshot" src="assets/img/devtools1.png">
 <dumb-space max></dumb-space>
 <h2>Component Code Example</h2>
-<gist-embed id="351b4d58ec58c229cc12b26b9522c221"></gist-embed>
+<gist-embed gist-id="351b4d58ec58c229cc12b26b9522c221" highlight="#fff"></gist-embed>
 <dumb-space max></dumb-space>
 <h2>Installation (using git)</h2>
 <code-mkp>git submodule add -b master https://github.com/foxeyes/holiday holiday</code-mkp>
