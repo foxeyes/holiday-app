@@ -31,6 +31,11 @@ export const ROUTES = {
     title: 'Styling',
   },
 
+  'naming': {
+    icon: 'at',
+    title: 'Naming Convention',
+  },
+
   'elements': {
     icon: 'cursor',
     title: 'UI Elements',

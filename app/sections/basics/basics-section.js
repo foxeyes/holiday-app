@@ -1,30 +1,10 @@
 import { HdElement } from '../../holiday/core/hd-element.js';
 
-class BasicsSection extends HdElement {
-
-}
+class BasicsSection extends HdElement {}
 
 BasicsSection.template = /*html*/ `
 <style>
-  @import 'css/dumbs/exports.css';
-  :host {
-    display: block;
-    padding: var(--gap-max);
-  }
-  .screenshot {
-    display: block;
-    object-fit: contain;
-    object-position: center center;
-    width: 100%;
-    border: 1px solid currentColor;
-  }
-  .head-img {
-    display: block;
-    width: 100%;
-    height: 240px;
-    object-fit: contain;
-    object-position: center center;
-  }
+  @import 'css/section-common.css';
 </style>
 <column-mkp>
 <image-mkp class="head-img" src="assets/img/logo.svg"></image-mkp>
@@ -32,30 +12,40 @@ BasicsSection.template = /*html*/ `
 <h2>lightweight and flexible UI-library for those who tired of all that js-frameworks</h2>
 <h2>Concept</h2>
 <ul>
-  <li>Minimal overhead upon a native web platform and DOM API</li>
+  <li>Minimal overhead upon a native web-platform and DOM API</li>
   <li>Native syntax for templates and styling</li>
   <li>Full power of modern web-platform: Custom Elements, Shadow DOM, ES modules, CSS variables</li>
   <li>Minimalistic toolchain: can work directly in any modern browser, without any additional build process setting</li>
+  <li>All inclusive: application routing, state management, UI-elements library and more...</li>
   <li>Lightweight and "tree shaking" friendly: use what you need only</li>
   <li>Fast as lightning: Holiday.js not using string pre-processing for templates in js runtime</li>
   <li>Flexible and extensible: standard class-based syntax allows you to extend any core-class as you want</li>
   <li>Easy to understand, easy to use: probably, you already know all you need</li>
 </ul>
 <h2>Discover</h2>
-This documentation site is build with Holiday.js and no any additional build process was used. You can discover it's source code directly
-in dev-tools of your browser:
-<dumb-space max></dumb-space>
-<img class="screenshot" src="assets/img/devtools1.png">
+<div class="info">
+  This documentation site is build with Holiday.js and no any additional build process was used. You can discover it's source code directly
+in dev-tools of your browser.
+</div>
 <dumb-space max></dumb-space>
 <h2>Component Code Example</h2>
-<gist-embed gist-id="351b4d58ec58c229cc12b26b9522c221" highlight="#fff"></gist-embed>
+<code-mkp src="./code-reference/basics/my-component.js" highlight></code-mkp>
 <dumb-space max></dumb-space>
 <h2>Installation (using git)</h2>
-<code-mkp>git submodule add -b master https://github.com/foxeyes/holiday holiday</code-mkp>
+<code-mkp terminal>git submodule add -b master https://github.com/foxeyes/holiday holiday</code-mkp>
 <dumb-space max></dumb-space>
 Git-module approach allows you to put your dependency to any path in project structure you prefer, select branches and versions, create your own branches and use git tooling to manage code more flexible.
 <h2>For getting updates:</h2>
-<code-mkp>git submodule update --init --recursive --remote</code-mkp>
+<code-mkp terminal>git submodule update --init --recursive --remote</code-mkp>
+<dumb-space max></dumb-space>
+<h2>Freedom of choice</h2>
+<p>
+  Holiday.js can be used with any other popular UI-library or framework, such as React, Angular or Vue.js.
+  You can create set of common reusable components for different ecosystems without extra complexity.
+  You can use modern JavaScript or TypeScript as well. You can use any build system you prefer, or publish raw code using HTTP/2 advantages.
+  Also, Holiday.js is a nice solution to build Electron applications, PWA or mobile apps based on web platform.
+</p>
+<a href="https://github.com/foxeyes/holiday">View code on GitHub</a>
 <dumb-space max></dumb-space>
 </column-mkp>
 `;

@@ -1,1 +1,1 @@
-export { GlobalMenuCom } from './global-menu/global-menu-com.js';
+export {GlobalMenuCom} from './global-menu/global-menu-com.js';
