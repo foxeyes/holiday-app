@@ -1,0 +1,1 @@
+HdState.notify('user.name');
