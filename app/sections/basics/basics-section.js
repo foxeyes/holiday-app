@@ -38,7 +38,7 @@ Git-module approach allows you to put your dependency to any path in project str
 <h2>For getting updates:</h2>
 <code-mkp terminal>git submodule update --init --recursive --remote</code-mkp>
 <dumb-space max></dumb-space>
-<h2>Freedom of choice</h2>
+<h2>Freedom matters</h2>
 <p>
   Holiday.js can be used with any other popular UI-library or framework, such as React, Angular or Vue.js.
   You can create set of common reusable components for different ecosystems without extra complexity.

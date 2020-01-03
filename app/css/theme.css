@@ -10,6 +10,7 @@ body {
 :root {
   --color-theme-1: rgb(31, 31, 30);
   --color-theme-2: rgb(253, 235, 75);
+  --color-theme-3: #fff;
 
   --color-terminal: rgb(22, 255, 61);
   --hl-color: rgb(96, 255, 247);

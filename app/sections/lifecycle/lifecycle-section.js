@@ -11,9 +11,10 @@ LifecycleSection.template = /*html*/ `
     <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
     <h2>Component Lifecycle</h2>
   </heading-layout>
-  <p>Holiday-component lifecycle is very close to native web-components:</p>
+  <p>Holiday-component lifecycle is very close to
+    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements">native Custom Elements</a>:</p>
   <code-mkp src="./code-reference/lifecycle/lc-example.js" highlight></code-mkp>
-  <p>As you can see, ...</p>
+  <p>That's all. Looks simple, isn't it?</p>
 </column-mkp>
 `;
 LifecycleSection.is = 'lifecycle-section';

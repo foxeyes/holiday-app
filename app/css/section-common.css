@@ -40,6 +40,10 @@ ul {
 }
 ul > li {
   margin-bottom: 6px;
+  transition: 0.2s;
+}
+ul > li:hover {
+  color: var(--hl-color);
 }
 ul > li::before {
   content: "> ";

@@ -50,6 +50,9 @@ GlobalMenuCom.template = /*html*/ `
     margin-top: 1em;
     border-top: 1px dotted currentColor;
   }
+  .support > a {
+    color: currentColor;
+  }
 </style>
 ${Object.keys(ROUTES).map((route) => {
   if (!ROUTES[route].hideFromMenu) {
@@ -57,7 +60,7 @@ ${Object.keys(ROUTES).map((route) => {
   }
 }).join('')}
 <div class="support">
-  Suported by CMPLX.systems
+  Suported by <a href="https://cmplx.systems/" target="_blank">CMPLX.systems</a>
 </div>
 `;
 GlobalMenuCom.is = 'global-menu-com';
