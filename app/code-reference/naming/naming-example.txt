@@ -1,0 +1,11 @@
+<global-menu-com></global-menu-com> // class GlobalMenuCom
+
+<editor-section></editor-section>   // class EditorSection
+
+<button-ui></button-ui>             // class ButtonUi
+
+<card-mkp></card-mkp>               // class CardMkp
+
+<panel-al></panel-al>               // class PanelAl
+
+<map-wgt></map-wgt>                 // class MapWgt

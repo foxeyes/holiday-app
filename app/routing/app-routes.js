@@ -56,6 +56,11 @@ export const ROUTES = {
     title: 'Complex Data',
   },
 
+  'utils': {
+    icon: 'tool',
+    title: 'Utilities',
+  },
+
   'triks': {
     icon: 'trik',
     title: 'Tips & Triks',
@@ -64,11 +69,6 @@ export const ROUTES = {
   'benchmarks': {
     icon: 'bench',
     title: 'Benchmarks',
-  },
-
-  'tools': {
-    icon: 'tool',
-    title: 'Tools',
   },
 
   'browsers': {

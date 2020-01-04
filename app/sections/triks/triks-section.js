@@ -1,4 +1,5 @@
-import { HdElement } from '../../holiday/core/hd-element.js';
+import {HdElement} from '../../holiday/core/hd-element.js';
+import {COMMON_STYLES} from '../common-styles.js';
 
 export class TriksSection extends HdElement {
   constructor() {
@@ -15,7 +16,33 @@ export class TriksSection extends HdElement {
 
 TriksSection.template = /*html*/ `
 <style>
-  @import 'css/section-common.css';
+${COMMON_STYLES}
+dumb-button {
+  --local-height: 32px;
+  display: inline-flex;
+  align-items: center;
+  height: var(--local-height);
+  padding-right: 10px;
+  border: 1px solid currentColor;
+  box-shadow: 3px 3px 0 currentColor;
+  cursor: pointer;
+  user-select: none;
+  transition: box-shadow 0.2s;
+}
+dumb-button:before {
+  content: attr(icon);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: var(--local-height);
+  margin-right: 6px;
+  background-color: var(--color, #000);
+  color: var(--bg-color, #fff);
+}
+dumb-button:hover {
+  box-shadow: 6px 6px 0 currentColor;
+}
 </style>
 <column-mkp>
   <h2>Custom Elements with CSS only</h2>

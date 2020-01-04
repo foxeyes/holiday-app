@@ -1,0 +1,11 @@
+*-com     // application UI-blocks
+
+*-section // application base sections
+
+*-ui      // UI-primitives: buttons, selectors, etc.
+
+*-mkp     // dumb markup components
+
+*-al      // active layouts
+
+*-wgt     // widgets

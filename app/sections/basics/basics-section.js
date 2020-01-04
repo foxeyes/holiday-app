@@ -1,10 +1,11 @@
-import { HdElement } from '../../holiday/core/hd-element.js';
+import {HdElement} from '../../holiday/core/hd-element.js';
+import {COMMON_STYLES} from '../common-styles.js';
 
 class BasicsSection extends HdElement {}
 
 BasicsSection.template = /*html*/ `
 <style>
-  @import 'css/section-common.css';
+${COMMON_STYLES}
 </style>
 <column-mkp>
 <image-mkp class="head-img" src="assets/img/logo.svg"></image-mkp>
@@ -27,17 +28,17 @@ BasicsSection.template = /*html*/ `
   This documentation site is build with Holiday.js and no any additional build process was used. You can discover it's source code directly
 in dev-tools of your browser.
 </div>
-<dumb-space max></dumb-space>
 <h2>Component Code Example</h2>
 <code-mkp src="./code-reference/basics/my-component.js" highlight></code-mkp>
-<dumb-space max></dumb-space>
 <h2>Installation (using git)</h2>
 <code-mkp terminal>git submodule add -b master https://github.com/foxeyes/holiday holiday</code-mkp>
-<dumb-space max></dumb-space>
-Git-module approach allows you to put your dependency to any path in project structure you prefer, select branches and versions, create your own branches and use git tooling to manage code more flexible.
+<p>
+ Git-module approach allows you to put your dependency to any path in project structure you prefer, select branches
+ and versions, create your own branches and use git tooling to manage code more flexible.
+</p>
+
 <h2>For getting updates:</h2>
 <code-mkp terminal>git submodule update --init --recursive --remote</code-mkp>
-<dumb-space max></dumb-space>
 <h2>Freedom matters</h2>
 <p>
   Holiday.js can be used with any other popular UI-library or framework, such as React, Angular or Vue.js.
@@ -45,8 +46,9 @@ Git-module approach allows you to put your dependency to any path in project str
   You can use modern JavaScript or TypeScript as well. You can use any build system you prefer, or publish raw code using HTTP/2 advantages.
   Also, Holiday.js is a nice solution to build Electron applications, PWA or mobile apps based on web platform.
 </p>
-<a href="https://github.com/foxeyes/holiday">View code on GitHub</a>
-<dumb-space max></dumb-space>
+<p>
+  <a href="https://github.com/foxeyes/holiday">View code on GitHub</a>
+</p>
 <div class="info">
   Now relax and enjoy your Holiday! =)
 </div>

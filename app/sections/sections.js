@@ -11,5 +11,5 @@ export { MonoSection } from './mono/mono-section.js';
 export { GraphSection } from './graph/graph-section.js';
 export { TriksSection } from './triks/triks-section.js';
 export { BenchmarksSection } from './benchmarks/benchmarks-section.js';
-export { ToolsSection } from './tools/tools-section.js';
+export { UtilsSection } from './utils/utils-section.js';
 export { BrowsersSection } from './browsers/browsers-section.js';

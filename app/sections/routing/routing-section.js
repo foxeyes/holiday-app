@@ -1,10 +1,11 @@
 import { HdElement } from '../../holiday/core/hd-element.js';
+import {COMMON_STYLES} from '../common-styles.js';
 
 export class RoutingSection extends HdElement {}
 
 RoutingSection.template = /*html*/ `
 <style>
-  @import 'css/section-common.css';
+${COMMON_STYLES}
 </style>
 <column-mkp>
   <heading-layout>

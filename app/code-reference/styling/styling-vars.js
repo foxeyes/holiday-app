@@ -1,14 +1,14 @@
-// 1: Native CSS Custom Properties:
+// Native CSS Custom Properties:
 const TEMPLATE = /*html*/ `
 <style>
   :host {
-    color: var(--color);
-    padding: var(--padding);
+    color: var(--color, #fff);
+    padding: var(--padding, #00f);
   }
 </style>
 `;
 
-// 2: ES6+ advantages:
+// ES6 advantages:
 function computedOpacity() {
   return Math.random();
 }

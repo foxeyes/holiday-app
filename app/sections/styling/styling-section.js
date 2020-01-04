@@ -1,12 +1,11 @@
-import { HdElement } from '../../holiday/core/hd-element.js';
+import {HdElement} from '../../holiday/core/hd-element.js';
+import {COMMON_STYLES} from '../common-styles.js';
 
-export class StylingSection extends HdElement {
-
-}
+export class StylingSection extends HdElement {}
 
 StylingSection.template = /*html*/ `
 <style>
-  @import 'css/section-common.css';
+${COMMON_STYLES}
 </style>
 <column-mkp>
   <heading-layout>
@@ -23,7 +22,10 @@ StylingSection.template = /*html*/ `
   <p>Shadow DOM will protect your styles of any leaks. You don't need to use long overcomplicated classnames anymore.</p>
   <h2>Variables and Mixins</h2>
   <code-mkp src="./code-reference/styling/styling-vars.js" highlight></code-mkp>
-  <p>More details about Shadow DOM styling you can find <a href="https://javascript.info/shadow-dom-style" target="_blank">here</a>.</p>
+  <p>Shadow DOM is transparent for CSS-variables, and they can be redefined at the any level of DOM-tree.
+    It can be used for build themes and modern design systems.</p>
+  <p>More details about Shadow DOM styling <a href="https://javascript.info/shadow-dom-style" target="_blank">you can find here</a>.</p>
+  <space-dumb max></space-dumb>
 </column-mkp>
 `;
 StylingSection.is = 'styling-section';

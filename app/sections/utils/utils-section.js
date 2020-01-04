@@ -1,10 +1,10 @@
 import { HdElement } from '../../holiday/core/hd-element.js';
 
-export class ToolsSection extends HdElement {
+export class UtilsSection extends HdElement {
 
 }
 
-ToolsSection.template = /*html*/ `
+UtilsSection.template = /*html*/ `
 <style>
   :host {
     display: block;
@@ -13,4 +13,4 @@ ToolsSection.template = /*html*/ `
 </style>
 TOOLS
 `;
-ToolsSection.is = 'tools-section';
+UtilsSection.is = 'utils-section';
