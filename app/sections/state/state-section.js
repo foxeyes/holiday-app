@@ -15,15 +15,15 @@ StateSection.template = /*html*/ `
   <p>HdState implements well known <a href="https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern" target="_blank">Pub/Sub</a>
   pattern and very easy to use anywhere in your code:</p>
   <code-mkp src="./code-reference/state/pub-sub.js" highlight></code-mkp>
-  <p>Before get access to application properties, you need to define global state scheme:</p>
+  <p>Before get access to application properties, you need to define global state scheme. It should be done once:</p>
   <code-mkp src="./code-reference/state/state-scheme.js" highlight></code-mkp>
   <p>To avoid memory leaks, you need to unsubscribe from data when it not needed anymore:</p>
   <code-mkp src="./code-reference/state/unsubscribe.js" highlight></code-mkp>
-  <p>To read current property value:</p>
+  <p>Read current property value:</p>
   <code-mkp src="./code-reference/state/read.js" highlight></code-mkp>
-  <p>To write property value without subscribers notification:</p>
+  <p>Write property value without subscribers notification:</p>
   <code-mkp src="./code-reference/state/silent.js" highlight></code-mkp>
-  <p>To notify all property subscribers and handle property value:</p>
+  <p>Notify all property subscribers and handle property value:</p>
   <code-mkp src="./code-reference/state/notify.js" highlight></code-mkp>
 </column-mkp>
 `;

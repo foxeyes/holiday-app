@@ -4,6 +4,7 @@ export { LifecycleSection } from './lifecycle/lifecycle-section.js';
 export { StateSection } from './state/state-section.js';
 export { RoutingSection } from './routing/routing-section.js';
 export { StylingSection } from './styling/styling-section.js';
+export { NamingSection } from './naming/naming-section.js';
 export { ElementsSection } from './elements/elements-section.js';
 export { IconsSection } from './icons/icons-section.js';
 export { MonoSection } from './mono/mono-section.js';

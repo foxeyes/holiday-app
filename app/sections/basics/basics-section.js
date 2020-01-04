@@ -10,15 +10,15 @@ BasicsSection.template = /*html*/ `
 <image-mkp class="head-img" src="assets/img/logo.svg"></image-mkp>
 <h1>Holiday.js</h1>
 <h2>lightweight and flexible UI-library for those who tired of all that js-frameworks</h2>
-<h2>Concept</h2>
+<h2>Concept Features</h2>
 <ul>
   <li>Minimal overhead upon a native web-platform and DOM API</li>
   <li>Native syntax for templates and styling</li>
   <li>Full power of modern web-platform: Custom Elements, Shadow DOM, ES modules, CSS variables</li>
   <li>Minimalistic toolchain: can work directly in any modern browser, without any additional build process setting</li>
-  <li>All inclusive: application routing, state management, UI-elements library and more...</li>
+  <li>All inclusive: application routing, state management, UI-library, design system and more...</li>
   <li>Lightweight and "tree shaking" friendly: use what you need only</li>
-  <li>Fast as lightning: Holiday.js not using string pre-processing for templates in js runtime</li>
+  <li>Fast as lightning: Holiday.js not using string pre-processing for templates in JavaScript runtime</li>
   <li>Flexible and extensible: standard class-based syntax allows you to extend any core-class as you want</li>
   <li>Easy to understand, easy to use: probably, you already know all you need</li>
 </ul>
@@ -47,6 +47,9 @@ Git-module approach allows you to put your dependency to any path in project str
 </p>
 <a href="https://github.com/foxeyes/holiday">View code on GitHub</a>
 <dumb-space max></dumb-space>
+<div class="info">
+  Now relax and enjoy your Holiday! =)
+</div>
 </column-mkp>
 `;
 BasicsSection.is = 'basics-section';
