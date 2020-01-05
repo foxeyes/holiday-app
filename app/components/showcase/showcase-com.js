@@ -7,6 +7,11 @@ export class ShowcaseCom extends Holiday {
       tagName: '',
       demoUrl: '',
       on: {
+        goToDemo: () => {
+          let win = window.open();
+          // @ts-ignore
+          win.location = this.state.demoUrl;
+        },
         goToGithub: () => {
           let win = window.open();
           win.location = this['github-link'];
@@ -69,7 +74,10 @@ ShowcaseCom.template = /*html*/ `
 <div class="shade"></div>
 <div class="head">
   <div class="tag-name">&lt;<span bind="textContent: tagName"></span>&gt;</div>
-  <button-ui outline icon="github" bind="onclick: on.goToGithub">View On Github</button-ui>
+  <grid-mkp columns="min-content min-content" gap="var(--gap-mid)">
+    <button-ui outline icon="cursor" bind="onclick: on.goToDemo">Demo</button-ui>
+    <button-ui outline icon="github" bind="onclick: on.goToGithub">Code</button-ui>
+  </grid-mkp>
 </div>
 <div class="demo">
   <iframe frameborder="0" bind="src: demoUrl"></iframe>
