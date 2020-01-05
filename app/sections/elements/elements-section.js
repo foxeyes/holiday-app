@@ -1,5 +1,6 @@
 import {HdElement} from '../../holiday/core/hd-element.js';
 import {COMMON_STYLES} from '../common-styles.js';
+import {UI_LIB, MKP_LIB, AL_LIB} from './el-lib.js';
 
 const CTX = {
   UI: 'ui',
@@ -13,6 +14,11 @@ export class ElementsSection extends HdElement {
     super();
     this.state = {
       ctx: CTX.UI,
+      html: {
+        ui: '',
+        mkp: '',
+        al: '',
+      },
       on: {
         ctxSelected: (val) => {
           this.setStateProperty({
@@ -21,6 +27,23 @@ export class ElementsSection extends HdElement {
         },
       },
     };
+
+    /**
+     *
+     * @param {String} path
+     * @param {UI_LIB | MKP_LIB | AL_LIB} src
+     */
+    const renderBlock = (path, src) => {
+      let html = '';
+      for (let tag in src) {
+        html += /*html*/ `<showcase-com tag-name="${tag}" demo-url="${src[tag].demo}" github-link="${src[tag].gh}"></showcase-com>`;
+      }
+      this.setStateProperty(path, html);
+    };
+
+    renderBlock('html.ui', UI_LIB);
+    renderBlock('html.mkp', MKP_LIB);
+    renderBlock('html.al', AL_LIB);
   }
 
 }
@@ -41,54 +64,9 @@ ${COMMON_STYLES}
   </tab-selector-ui>
   <space-dumb max></space-dumb>
   <ctx-al bind="current: ctx">
-
-    <div ctx="ui">
-      <showcase-com
-        tag-name="button-ui"
-        demo-url="./holiday/elements/ui/button/button-ui_test.html"
-        github-link="https://github.com/foxeyes/holiday/tree/master/elements/ui/button"
-        ></showcase-com>
-
-      <showcase-com
-        tag-name="checkbox-ui"
-        demo-url="./holiday/elements/ui/checkbox/checkbox-ui_test.html"
-        github-link="https://github.com/foxeyes/holiday/tree/master/elements/ui/checkbox"
-        ></showcase-com>
-
-      <showcase-com
-        tag-name="radio-ui"
-        demo-url="./holiday/elements/ui/radio/radio-ui_test.html"
-        github-link="https://github.com/foxeyes/holiday/tree/master/elements/ui/radio"
-        ></showcase-com>
-
-      <showcase-com
-        tag-name="input-ui"
-        demo-url="./holiday/elements/ui/input/input-ui_test.html"
-        github-link="https://github.com/foxeyes/holiday/tree/master/elements/ui/input"
-        ></showcase-com>
-
-      <showcase-com
-        tag-name="select-ui"
-        demo-url="./holiday/elements/ui/select/select-ui_test.html"
-        github-link="https://github.com/foxeyes/holiday/tree/master/elements/ui/select"
-        ></showcase-com>
-
-      <showcase-com
-        tag-name="tab-selector-ui"
-        demo-url="./holiday/elements/ui/tab-selector/tab-selector-ui_test.html"
-        github-link="https://github.com/foxeyes/holiday/tree/master/elements/ui/tab-selector"
-        ></showcase-com>
-
-    </div>
-
-    <div ctx="mkp">
-
-    </div>
-
-    <div ctx="al">
-
-    </div>
-
+    <div ctx="ui" bind="innerHTML: html.ui"></div>
+    <div ctx="mkp" bind="innerHTML: html.mkp"></div>
+    <div ctx="al" bind="innerHTML: html.al"></div>
   </ctx-al>
   <space-dumb max></space-dumb>
 </column-mkp>
