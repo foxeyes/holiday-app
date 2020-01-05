@@ -43,30 +43,42 @@ ${COMMON_STYLES}
   <ctx-al bind="current: ctx">
 
     <div ctx="ui">
-      <h2>&lt;button-ui&gt;</h2>
-      <button-ui icon="star">Click Me!</button-ui>
-      <h2>&lt;checkbox-ui&gt;</h2>
-      <checkbox-ui icon="star">Check Me!</checkbox-ui>
-      <h2>&lt;radio-ui&gt;</h2>
-      <grid-mkp gap="10px">
-        <radio-ui name="radio">Option 1</radio-ui>
-        <radio-ui name="radio">Option 2</radio-ui>
-      </grid-mkp>
-      <h2>&lt;input-ui&gt;</h2>
-      <input-ui icon="star"></input-ui>
-      <h2>&lt;select-ui&gt;</h2>
-      <select-ui>
-        <option-ui option="1">First Option</option-ui>
-        <option-ui option="2">Second Option</option-ui>
-        <option-ui option="3">Third Option</option-ui>
-      </select-ui>
-      <h2>&lt;tab-selector-ui&gt;</h2>
-      <div style="display: inline-block">
-        <tab-selector-ui>
-          <tab-option-ui icon="star" value="1">First Tab</tab-option-ui>
-          <tab-option-ui icon="star" value="2">Second Tab</tab-option-ui>
-        </tab-selector-ui>
-      </div>
+      <showcase-com
+        tag-name="button-ui"
+        demo-url="./holiday/elements/ui/button/button-ui_test.html"
+        github-link="https://github.com/foxeyes/holiday/tree/master/elements/ui/button"
+        ></showcase-com>
+
+      <showcase-com
+        tag-name="checkbox-ui"
+        demo-url="./holiday/elements/ui/checkbox/checkbox-ui_test.html"
+        github-link="https://github.com/foxeyes/holiday/tree/master/elements/ui/checkbox"
+        ></showcase-com>
+
+      <showcase-com
+        tag-name="radio-ui"
+        demo-url="./holiday/elements/ui/radio/radio-ui_test.html"
+        github-link="https://github.com/foxeyes/holiday/tree/master/elements/ui/radio"
+        ></showcase-com>
+
+      <showcase-com
+        tag-name="input-ui"
+        demo-url="./holiday/elements/ui/input/input-ui_test.html"
+        github-link="https://github.com/foxeyes/holiday/tree/master/elements/ui/input"
+        ></showcase-com>
+
+      <showcase-com
+        tag-name="select-ui"
+        demo-url="./holiday/elements/ui/select/select-ui_test.html"
+        github-link="https://github.com/foxeyes/holiday/tree/master/elements/ui/select"
+        ></showcase-com>
+
+      <showcase-com
+        tag-name="tab-selector-ui"
+        demo-url="./holiday/elements/ui/tab-selector/tab-selector-ui_test.html"
+        github-link="https://github.com/foxeyes/holiday/tree/master/elements/ui/tab-selector"
+        ></showcase-com>
+
     </div>
 
     <div ctx="mkp">

@@ -4,8 +4,10 @@
 
 *-ui      // UI-primitives: buttons, selectors, etc.
 
-*-mkp     // dumb markup components
+*-mkp     // markup components
 
 *-al      // active layouts
 
 *-wgt     // widgets
+
+*-dumb    // dumb elements defined with CSS only

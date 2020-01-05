@@ -1,11 +1,13 @@
-<global-menu-com></global-menu-com> // class GlobalMenuCom
+<global-menu-com></global-menu-com>      // class GlobalMenuCom
 
-<editor-section></editor-section>   // class EditorSection
+<editor-section></editor-section>        // class EditorSection
 
-<button-ui></button-ui>             // class ButtonUi
+<button-ui></button-ui>                  // class ButtonUi
 
-<card-mkp></card-mkp>               // class CardMkp
+<card-mkp></card-mkp>                    // class CardMkp
 
-<panel-al></panel-al>               // class PanelAl
+<floating-panel-al></floating-panel-al>  // class FloatingPanelAl
 
-<map-wgt></map-wgt>                 // class MapWgt
+<calendar-wgt></calendar-wgt>            // class CalendarWgt
+
+<spinner-dumb></spinner-dumb>            // CSS spinner-dumb selector

@@ -26,7 +26,8 @@ heading-layout {
   align-items: center;
   justify-content: flex-start;
 }
-.info {
+info-dumb {
+  display: block;
   font-style: italic;
   padding: var(--gap-max);
   border: 1px dashed currentColor;

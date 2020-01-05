@@ -36,6 +36,7 @@ class AppIndex extends Holiday {
       this.textContent = '';
       let section = document.createElement(val.route + '-section');
       this.appendChild(section);
+      window.scrollTo(0, 0);
     });
 
   }
