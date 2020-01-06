@@ -1,13 +1,15 @@
-*-com     // application UI-blocks
+*-com      // application UI-blocks
 
-*-section // application base sections
+*-el       // elements of complex UI-blocks
 
-*-ui      // UI-primitives: buttons, selectors, etc.
+*-section  // application base sections
 
-*-mkp     // markup components
+*-ui       // UI-primitives: buttons, selectors, etc.
 
-*-al      // active layouts
+*-mkp      // markup components
 
-*-wgt     // widgets
+*-al       // active layouts
 
-*-dumb    // dumb elements defined with CSS only
+*-wgt      // widgets
+
+*-css      // dumb elements defined with CSS only

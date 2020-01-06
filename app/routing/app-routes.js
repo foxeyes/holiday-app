@@ -51,30 +51,30 @@ export const ROUTES = {
     title: 'MONO Design System',
   },
 
-  'graph': {
-    icon: 'graph',
-    title: 'Complex Data',
-  },
+  // 'graph': {
+  //   icon: 'graph',
+  //   title: 'Complex Data',
+  // },
 
-  'utils': {
-    icon: 'tool',
-    title: 'Utilities',
-  },
+  // 'utils': {
+  //   icon: 'tool',
+  //   title: 'Utilities',
+  // },
 
-  'triks': {
-    icon: 'trik',
-    title: 'Tips & Triks',
-  },
+  // 'triks': {
+  //   icon: 'trik',
+  //   title: 'Tips & Triks',
+  // },
 
-  'benchmarks': {
-    icon: 'bench',
-    title: 'Benchmarks',
-  },
+  // 'benchmarks': {
+  //   icon: 'bench',
+  //   title: 'Benchmarks',
+  // },
 
-  'browsers': {
-    icon: 'browser',
-    title: 'Browser Support',
-  },
+  // 'browsers': {
+  //   icon: 'browser',
+  //   title: 'Browser Support',
+  // },
 
   'error': {
     icon: 'error',

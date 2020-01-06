@@ -53,22 +53,22 @@ ElementsSection.template = /*html*/ `
 ${COMMON_STYLES}
 </style>
 <column-mkp>
-  <heading-layout>
+  <heading-layout-css>
     <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
     <h2>Holiday Elements</h2>
-  </heading-layout>
+  </heading-layout-css>
   <tab-selector-ui bind="onValueChange: on.ctxSelected">
     <tab-option-ui icon="cursor" value="${CTX.UI}">UI Primitives</tab-option-ui>
     <tab-option-ui icon="mkp" value="${CTX.MKP}">Markup Blocks</tab-option-ui>
     <tab-option-ui icon="layout" value="${CTX.AL}">Active Layouts</tab-option-ui>
   </tab-selector-ui>
-  <space-dumb max></space-dumb>
+  <space-css max></space-css>
   <ctx-al bind="current: ctx">
     <div ctx="ui" bind="innerHTML: html.ui"></div>
     <div ctx="mkp" bind="innerHTML: html.mkp"></div>
     <div ctx="al" bind="innerHTML: html.al"></div>
   </ctx-al>
-  <space-dumb max></space-dumb>
+  <space-css max></space-css>
 </column-mkp>
 `;
 ElementsSection.is = 'elements-section';

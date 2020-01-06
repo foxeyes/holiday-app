@@ -8,10 +8,10 @@ StylingSection.template = /*html*/ `
 ${COMMON_STYLES}
 </style>
 <column-mkp>
-  <heading-layout>
+  <heading-layout-css>
     <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
     <h2>Styling</h2>
-  </heading-layout>
+  </heading-layout-css>
   <p>As a regular web-components, every Holiday-component can have it's own isolated style section in template:</p>
   <code-mkp src="./code-reference/styling/styling.js" highlight></code-mkp>
   <p>Every Custom Element has "inline" display property by default. Don't forget to set correct value in ":host" selector.</p>
@@ -25,7 +25,7 @@ ${COMMON_STYLES}
   <p>Shadow DOM is transparent for CSS-variables, and they can be redefined at the any level of DOM-tree.
     It can be used for build themes and modern design systems.</p>
   <p>More details about Shadow DOM styling <a href="https://javascript.info/shadow-dom-style" target="_blank">you can find here</a>.</p>
-  <space-dumb max></space-dumb>
+  <space-css max></space-css>
 </column-mkp>
 `;
 StylingSection.is = 'styling-section';

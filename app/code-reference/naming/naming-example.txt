@@ -1,5 +1,7 @@
 <global-menu-com></global-menu-com>      // class GlobalMenuCom
 
+<menu-item-el></menu-item-el>            // class MenuItemEl
+
 <editor-section></editor-section>        // class EditorSection
 
 <button-ui></button-ui>                  // class ButtonUi
@@ -10,4 +12,4 @@
 
 <calendar-wgt></calendar-wgt>            // class CalendarWgt
 
-<spinner-dumb></spinner-dumb>            // CSS spinner-dumb selector
+<spinner-css></spinner-css>              // CSS spinner-css selector

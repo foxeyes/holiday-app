@@ -24,10 +24,10 @@ ${COMMON_STYLES}
   <li>Easy to understand, easy to use: probably, you already know all you need</li>
 </ul>
 <h2>Discover</h2>
-<info-dumb>
+<info-css>
   This documentation site is build with Holiday.js and no any additional build process was used. You can discover it's source code directly
 in dev-tools of your browser.
-</info-dumb>
+</info-css>
 <h2>Component Code Example</h2>
 <code-mkp src="./code-reference/basics/my-component.js" highlight></code-mkp>
 <h2>Installation (using git)</h2>
@@ -49,9 +49,9 @@ in dev-tools of your browser.
 <p>
   <a href="https://github.com/foxeyes/holiday">View code on GitHub</a>
 </p>
-<info-dumb>
+<info-css>
   Now relax and enjoy your Holiday! =)
-</info-dumb>
+</info-css>
 </column-mkp>
 `;
 BasicsSection.is = 'basics-section';

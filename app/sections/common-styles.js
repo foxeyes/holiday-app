@@ -21,12 +21,12 @@ export const COMMON_STYLES = /*css*/ `
   height: 120px;
   width: 120px;
 }
-heading-layout {
+heading-layout-css {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-info-dumb {
+info-css {
   display: block;
   font-style: italic;
   padding: var(--gap-max);
@@ -47,9 +47,6 @@ ul > li {
   margin-bottom: 6px;
   transition: 0.2s;
 }
-ul > li:hover {
-  color: var(--hl-color);
-}
 ul > li::before {
   content: "> ";
 }
@@ -60,38 +57,38 @@ a {
   text-shadow: 0 4px 6px rgba(0, 255, 200, 0.4);
 }
 
-space-dumb {
+space-css {
   display: block;
   height: var(--gap-mid, 10px);
   width: var(--gap-mid, 10px);
   min-height: var(--gap-mid, 10px);
   min-width: var(--gap-mid, 10px);
 }
-space-dumb[min] {
+space-css[min] {
   height: var(--gap-min, 2px);
   width: var(--gap-min, 2px);
   min-height: var(--gap-min, 2px);
   min-width: var(--gap-min, 2px);
 }
-space-dumb[mid] {
+space-css[mid] {
   height: var(--gap-mid, 10px);
   width: var(--gap-mid, 10px);
   min-height: var(--gap-mid, 10px);
   min-width: var(--gap-mid, 10px);
 }
-space-dumb[max] {
+space-css[max] {
   height: var(--gap-max, 20px);
   width: var(--gap-max, 20px);
   min-height: var(--gap-max, 20px);
   min-width: var(--gap-max, 20px);
 }
-space-dumb[ui] {
+space-css[ui] {
   height: var(--tap-zone-size, 32px);
   width: var(--tap-zone-size, 32px);
   min-height: var(--tap-zone-size, 32px);
   min-width: var(--tap-zone-size, 32px);
 }
-space-dumb[inline] {
+space-css[inline] {
   display: inline-block;
 }
 `;

@@ -8,10 +8,10 @@ TemplatesSection.template = /*html*/ `
 ${COMMON_STYLES}
 </style>
 <column-mkp>
-  <heading-layout>
+  <heading-layout-css>
     <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
     <h2>Templates</h2>
-  </heading-layout>
+  </heading-layout-css>
   <p>Holiday.js provides native HTML and CSS syntax for templates inside standard JavaScript template literals.</p>
   <p>As a regular JS-string, template can be defined in any place of your code, including external ES-module:</p>
   <code-mkp src="./code-reference/templates/tpl.js" highlight></code-mkp>

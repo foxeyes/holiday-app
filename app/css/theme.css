@@ -21,7 +21,7 @@ body {
   --color: var(--color-theme-2);
   --bg-color: var(--color-theme-1);
 
-  --tap-zone-size: 36px;
+  --tap-zone-size: 39px;
   --side-panel-width: 200px;
 
   --ui-font-size: 16px;

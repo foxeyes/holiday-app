@@ -47,7 +47,7 @@ ShowcaseCom.template = /*html*/ `
     display: block;
     width: 100%;
     min-height: 320px;
-    border-radius: var(--gap-mid);
+    border-radius: 6px;
     background-color: #fff;
   }
   .shade {

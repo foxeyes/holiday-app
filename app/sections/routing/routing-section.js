@@ -8,10 +8,10 @@ RoutingSection.template = /*html*/ `
 ${COMMON_STYLES}
 </style>
 <column-mkp>
-  <heading-layout>
+  <heading-layout-css>
     <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
     <h2>Application Routing</h2>
-  </heading-layout>
+  </heading-layout-css>
   <p>HdRouter is based on <a href="https://developer.mozilla.org/en-US/docs/Web/API/History_API" target="_blank">History API</a>
   and provide base navigation mechanics for your SPA:</p>
   <code-mkp src="./code-reference/routing/routing.js" highlight></code-mkp>

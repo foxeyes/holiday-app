@@ -8,10 +8,10 @@ StateSection.template = /*html*/ `
 ${COMMON_STYLES}
 </style>
 <column-mkp>
-  <heading-layout>
+  <heading-layout-css>
     <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
     <h2>Application State Management</h2>
-  </heading-layout>
+  </heading-layout-css>
   <p>Holiday.js provide flexible and performant solution for application-level state management: <a href="https://github.com/foxeyes/holiday/blob/master/core/hd-state.js" target="_blank">HdState</a>.</p>
   <p>HdState implements well known Pub/Sub pattern and very easy to use anywhere in your code:</p>
   <code-mkp src="./code-reference/state/pub-sub.js" highlight></code-mkp>
@@ -25,7 +25,7 @@ ${COMMON_STYLES}
   <code-mkp src="./code-reference/state/silent.js" highlight></code-mkp>
   <p>Notify all property subscribers and handle property value:</p>
   <code-mkp src="./code-reference/state/notify.js" highlight></code-mkp>
-  <space-dumb max></space-dumb>
+  <space-css max></space-css>
 </column-mkp>
 `;
 StateSection.is = 'state-section';
