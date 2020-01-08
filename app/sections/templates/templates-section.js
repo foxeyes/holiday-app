@@ -1,4 +1,4 @@
-import { HdElement } from '../../holiday/core/hd-element.js';
+import {HdElement} from '../../holiday/core/hd-element.js';
 import {COMMON_STYLES} from '../common-styles.js';
 
 export class TemplatesSection extends HdElement {}

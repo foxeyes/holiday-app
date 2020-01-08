@@ -17,7 +17,9 @@ MonoSection.template = /*html*/ `
 <style>
 ${COMMON_STYLES}
 mono-css {
-  --ui-radius: 6px;
+  --ui-radius: 4px;
+  --shade-opacity: 0.15;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -27,7 +29,7 @@ mono-css {
   background-color: var(--bg-color);
 }
 mono-css[dark] {
-  --color: rgb(96, 255, 247);
+  --color: rgb(60, 250, 100);
   --bg-color: #000;
 }
 mono-css[bright] {

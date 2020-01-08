@@ -51,6 +51,11 @@ export const ROUTES = {
     title: 'MONO Design System',
   },
 
+  'framework': {
+    icon: 'toyblock',
+    title: 'Framework'
+  },
+
   // 'graph': {
   //   icon: 'graph',
   //   title: 'Complex Data',
