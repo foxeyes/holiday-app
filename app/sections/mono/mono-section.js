@@ -44,11 +44,11 @@ mono-css[bright] {
   </heading-layout-css>
   <space-css max></space-css>
   <info-css>MONO - means monochrome. You can use only two colors for your color schemes.</info-css>
-  <h2>Concept</h2>
+  <h2>Advantages</h2>
   <ul>
     <li>Minimalistic but sufficient visual languige</li>
     <li>Simplicity for developers: easy usage and customization</li>
-    <li>Flexibility: can be used with mobile and desktop platforms</li>
+    <li>Adaptivity: can be used on mobile and desktop platforms</li>
     <li>Connectivity: all elements should fit others in panels and toolbars</li>
   </ul>
   <h2>API</h2>

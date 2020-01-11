@@ -39,7 +39,8 @@ info-css {
   padding: var(--gap-max);
   color: var(--info-color);
   border-left: 1px dashed currentColor;
-  text-shadow: 0 0px 12px currentColor;
+  text-shadow: 0 0px 13px currentColor;
+  box-shadow: 0 0px 12px rgba(0, 0, 0, 0.2);
 }
 info-css::before {
   display: block;
@@ -65,11 +66,13 @@ ul {
   list-style-type: none;
 }
 ul > li {
-  margin-bottom: 6px;
-  transition: 0.2s;
+  margin-bottom: 8px;
 }
 ul > li::before {
-  content: "> ";
+  content: ">";
+  color: var(--hl-color);
+  text-shadow: 0 0px 13px currentColor;
+  margin-right: var(--gap-mid);
 }
 
 a {
