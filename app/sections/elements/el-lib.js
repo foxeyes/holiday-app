@@ -27,7 +27,7 @@ export const UI_LIB = {
 
 export const MKP_LIB = {
   'caption-mkp': {
-    demo: './holiday/elements/mkp/button/caption-mkp_test.html',
+    demo: './holiday/elements/mkp/caption/caption-mkp_test.html',
     gh: 'https://github.com/foxeyes/holiday/tree/master/elements/mkp/caption',
   },
   'card-mkp': {
@@ -58,14 +58,6 @@ export const MKP_LIB = {
     demo: './holiday/elements/mkp/image/image-mkp_test.html',
     gh: 'https://github.com/foxeyes/holiday/tree/master/elements/mkp/image',
   },
-  'placeholder-mkp': {
-    demo: './holiday/elements/mkp/placeholder/placeholder-mkp_test.html',
-    gh: 'https://github.com/foxeyes/holiday/tree/master/elements/mkp/placeholder',
-  },
-  'spinner-mkp': {
-    demo: './holiday/elements/mkp/spinner/spinner-mkp_test.html',
-    gh: 'https://github.com/foxeyes/holiday/tree/master/elements/mkp/spinner',
-  },
   'ui-caption-mkp': {
     demo: './holiday/elements/mkp/ui-caption/ui-caption-mkp_test.html',
     gh: 'https://github.com/foxeyes/holiday/tree/master/elements/mkp/ui-caption',
@@ -92,10 +84,6 @@ export const AL_LIB = {
   'panel-al': {
     demo: './holiday/elements/al/panel/panel-al_test.html',
     gh: 'https://github.com/foxeyes/holiday/tree/master/elements/al/panel',
-  },
-  'popup-al': {
-    demo: './holiday/elements/al/popup/popup-al_test.html',
-    gh: 'https://github.com/foxeyes/holiday/tree/master/elements/al/popup',
   },
   'repeat-al': {
     demo: './holiday/elements/al/repeat/repeat-al_test.html',
