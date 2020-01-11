@@ -12,7 +12,8 @@ ${COMMON_STYLES}
     <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
     <h2>Application Routing</h2>
   </heading-layout-css>
-  <p>HdRouter is based on <a href="https://developer.mozilla.org/en-US/docs/Web/API/History_API" target="_blank">History API</a>
+  <p><a href="https://github.com/foxeyes/holiday/blob/master/core/hd-router.js" target="_blank">HdRouter</a>
+  is based on <a href="https://developer.mozilla.org/en-US/docs/Web/API/History_API" target="_blank">History API</a>
   and provide base navigation mechanics for your SPA:</p>
   <code-mkp src="./code-reference/routing/routing.js" highlight></code-mkp>
   <p>URL example:</p>
