@@ -42,6 +42,7 @@ mono-css[bright] {
     <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
     <h2>MONO Design System</h2>
   </heading-layout-css>
+  <space-css max></space-css>
   <info-css>MONO - means monochrome. You can use only two colors for your color schemes.</info-css>
   <h2>Concept</h2>
   <ul>

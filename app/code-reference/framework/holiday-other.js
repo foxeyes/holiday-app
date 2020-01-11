@@ -5,7 +5,7 @@ class HolidayApp extends Holiday {
     super();
     // ...
 
-    // Bind global state property lo local:
+    // Bind global state property to local:
     this.reflectGlobalProperty('global.prop', 'local.prop', (propValue) => {
       // ...
     });

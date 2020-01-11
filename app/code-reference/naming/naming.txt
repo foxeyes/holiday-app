@@ -1,15 +1,15 @@
-*-com      // application UI-blocks
+*-com      // application components (UI-blocks)
 
-*-el       // elements of complex UI-blocks
+*-el       // inner elements of complex UI-blocks
 
-*-section  // application base sections
+*-section  // sections, pages, application views
 
 *-ui       // UI-primitives: buttons, selectors, etc.
 
-*-mkp      // markup components
+*-mkp      // markup blocks: captions, cards, etc.
 
-*-al       // active layouts
+*-al       // active layouts: floating panels, popups, etc.
 
-*-wgt      // widgets
+*-wgt      // widgets: maps, charts, media players, etc.
 
 *-css      // dumb elements defined with CSS only

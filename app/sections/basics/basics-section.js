@@ -1,7 +1,7 @@
 import {HdElement} from '../../holiday/core/hd-element.js';
 import {COMMON_STYLES} from '../common-styles.js';
 
-class BasicsSection extends HdElement {}
+export class BasicsSection extends HdElement {}
 
 BasicsSection.template = /*html*/ `
 <style>
@@ -9,8 +9,17 @@ ${COMMON_STYLES}
 </style>
 <column-mkp>
 <image-mkp class="head-img" src="assets/img/logo.svg"></image-mkp>
-<h1>Holiday.js</h1>
-<h2>lightweight and flexible UI-library for those who tired of all that js-frameworks</h2>
+<h2>Lightweight and flexible UI-library for those who tired of all that js-frameworks</h2>
+<p>You should try it. And your work become Holiday. Really.</p>
+<info-css>
+  Before you start, don't miss the
+  <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank">Web Components docs</a></info-css>
+<h2>One more JavaScript library? Oh, no...</h2>
+<p>
+  Wait. We are don't planning to hit you with a new syntax,
+  complicated entities or new terminology. If you dreamt for a simple, friendly and performant
+  solution for modern web development - here it is.
+</p>
 <h2>Concept Features</h2>
 <ul>
   <li>Minimal overhead upon a native web-platform and DOM API</li>
@@ -19,7 +28,7 @@ ${COMMON_STYLES}
   <li>Minimalistic toolchain: can work directly in any modern browser, without any additional build process setting</li>
   <li>All inclusive: application routing, state management, UI-library, design system and more...</li>
   <li>Lightweight and "tree shaking" friendly: use what you need only</li>
-  <li>Fast as lightning: Holiday.js not using string pre-processing for templates in JavaScript runtime</li>
+  <li>Fast as lightning: Holiday.js not using any additional processing for templates in JavaScript runtime for component instances</li>
   <li>Flexible and extensible: standard class-based syntax allows you to extend any core-class as you want</li>
   <li>Easy to understand, easy to use: probably, you already know all you need</li>
 </ul>
@@ -56,4 +65,3 @@ in dev-tools of your browser.
 `;
 BasicsSection.is = 'basics-section';
 
-export { BasicsSection };

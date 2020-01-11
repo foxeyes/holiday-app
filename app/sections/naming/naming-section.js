@@ -12,6 +12,7 @@ ${COMMON_STYLES}
     <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
     <h2>Naming Convention</h2>
   </heading-layout-css>
+  <space-css max></space-css>
   <info-css>
     All Custom Elements use the same registry in browser window, so it very important to define naming convention for your projects
     to avoid name intersections

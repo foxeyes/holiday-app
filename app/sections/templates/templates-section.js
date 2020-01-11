@@ -16,8 +16,8 @@ ${COMMON_STYLES}
   <p>As a regular JS-string, template can be defined in any place of your code, including external ES-module:</p>
   <code-mkp src="./code-reference/templates/tpl.js" highlight></code-mkp>
   <p>
-    Template will be parsed and used in browser without additional string preprocessing stage in JavaScript environment.
-    This aproach allows to render template and start to use DOM API for data bindings faster than with any custom template syntax whitch is not supported by browser directly.
+    Template will be parsed once and used in browser without additional string processing stage in JavaScript environment.
+    This aproach allows to render template and start to use DOM API for data bindings much faster.
   </p>
   <h2>Slots</h2>
   <p>

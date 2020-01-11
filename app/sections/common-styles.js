@@ -1,3 +1,5 @@
+import {SPACE_CSS} from '../holiday/elements/exports.js';
+
 export const COMMON_STYLES = /*css*/ `
 :host {
   display: block;
@@ -11,8 +13,9 @@ export const COMMON_STYLES = /*css*/ `
   border: 1px solid currentColor;
 }
 .head-img {
-  display: block;
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 240px;
   object-fit: contain;
   object-position: center center;
@@ -26,11 +29,29 @@ heading-layout-css {
   align-items: center;
   justify-content: flex-start;
 }
+heading-layout-css > * {
+  margin-right: var(--gap-mid);
+}
 info-css {
   display: block;
+  position: relative;
   font-style: italic;
   padding: var(--gap-max);
-  border: 1px dashed currentColor;
+  color: var(--info-color);
+  border-left: 1px dashed currentColor;
+  text-shadow: 0 0px 12px currentColor;
+}
+info-css::before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  background-color: #000;
+  pointer-events: none;
+  opacity: 0.2;
 }
 code-mkp[terminal] {
   color: var(--color-terminal);
@@ -57,38 +78,5 @@ a {
   text-shadow: 0 4px 6px rgba(0, 255, 200, 0.4);
 }
 
-space-css {
-  display: block;
-  height: var(--gap-mid, 10px);
-  width: var(--gap-mid, 10px);
-  min-height: var(--gap-mid, 10px);
-  min-width: var(--gap-mid, 10px);
-}
-space-css[min] {
-  height: var(--gap-min, 2px);
-  width: var(--gap-min, 2px);
-  min-height: var(--gap-min, 2px);
-  min-width: var(--gap-min, 2px);
-}
-space-css[mid] {
-  height: var(--gap-mid, 10px);
-  width: var(--gap-mid, 10px);
-  min-height: var(--gap-mid, 10px);
-  min-width: var(--gap-mid, 10px);
-}
-space-css[max] {
-  height: var(--gap-max, 20px);
-  width: var(--gap-max, 20px);
-  min-height: var(--gap-max, 20px);
-  min-width: var(--gap-max, 20px);
-}
-space-css[ui] {
-  height: var(--tap-zone-size, 32px);
-  width: var(--tap-zone-size, 32px);
-  min-height: var(--tap-zone-size, 32px);
-  min-width: var(--tap-zone-size, 32px);
-}
-space-css[inline] {
-  display: inline-block;
-}
+${SPACE_CSS}
 `;

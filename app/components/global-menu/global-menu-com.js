@@ -1,7 +1,7 @@
 import {Holiday, HdRouter} from '../../holiday/core/holiday.js';
 import {ROUTES} from '../../routing/app-routes.js';
 
-class GlobalMenuCom extends Holiday {
+export class GlobalMenuCom extends Holiday {
 
   constructor() {
     super();
@@ -60,9 +60,8 @@ ${Object.keys(ROUTES).map((route) => {
   }
 }).join('')}
 <div class="support">
-  Suported by <a href="https://cmplx.systems/" target="_blank">CMPLX.systems</a>
+  Supported by <a href="https://cmplx.systems/" target="_blank">CMPLX.systems</a>
 </div>
 `;
 GlobalMenuCom.is = 'global-menu-com';
 
-export { GlobalMenuCom };

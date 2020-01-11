@@ -12,6 +12,7 @@ ${COMMON_STYLES}
     <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
     <h2>Holiday Framework</h2>
   </heading-layout-css>
+  <space-css max></space-css>
   <info-css>
     Holiday.js can be used as library and as a framework.
   </info-css>
