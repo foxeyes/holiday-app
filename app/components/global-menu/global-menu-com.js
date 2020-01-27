@@ -59,9 +59,9 @@ ${Object.keys(ROUTES).map((route) => {
     return /*html*/ `<button-ui icon="${ROUTES[route].icon}" route="${route}">${ROUTES[route].title}</button-ui>`;
   }
 }).join('')}
-<div class="support">
+<!-- <div class="support">
   Supported by <a href="https://cmplx.systems/" target="_blank">CMPLX.systems</a>
-</div>
+</div> -->
 `;
 GlobalMenuCom.is = 'global-menu-com';
 

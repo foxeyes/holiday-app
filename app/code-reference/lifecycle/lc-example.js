@@ -58,7 +58,6 @@ class LifecycleExample extends HdElement {
   }
 
   disconnectedCallback() {
-    super.disconnectedCallback();
     /*
     Native callback.
     Element is removed from DOM tree. Here you can unsubscribe from application data source

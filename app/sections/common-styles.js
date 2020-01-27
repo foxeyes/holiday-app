@@ -64,6 +64,7 @@ code-mkp[custom] {
 
 ul {
   list-style-type: none;
+  padding: var(--gap-max);
 }
 ul > li {
   margin-bottom: 8px;
