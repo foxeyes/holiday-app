@@ -1,5 +1,6 @@
 import {HdElement} from '../../holiday/core/hd-element.js';
 import {COMMON_STYLES} from '../common-styles.js';
+import {ShowcaseCom} from '../../components/showcase/showcase-com.js';
 import {UI_LIB, MKP_LIB, AL_LIB} from './el-lib.js';
 
 const CTX = {
@@ -14,10 +15,10 @@ export class ElementsSection extends HdElement {
     super();
     this.state = {
       ctx: CTX.UI,
-      html: {
-        ui: '',
-        mkp: '',
-        al: '',
+      dom: {
+        ui: this.prepareDomFragment(UI_LIB, ShowcaseCom),
+        mkp: this.prepareDomFragment(MKP_LIB, ShowcaseCom),
+        al: this.prepareDomFragment(AL_LIB, ShowcaseCom),
       },
       on: {
         ctxSelected: (val) => {
@@ -27,23 +28,8 @@ export class ElementsSection extends HdElement {
         },
       },
     };
+    console.log(this.state)
 
-    /**
-     *
-     * @param {String} path
-     * @param {UI_LIB | MKP_LIB | AL_LIB} src
-     */
-    const renderBlock = (path, src) => {
-      let html = '';
-      for (let tag in src) {
-        html += /*html*/ `<showcase-com tag-name="${tag}" demo-url="${src[tag].demo}" github-link="${src[tag].gh}"></showcase-com>`;
-      }
-      this.setStateProperty(path, html);
-    };
-
-    renderBlock('html.ui', UI_LIB);
-    renderBlock('html.mkp', MKP_LIB);
-    renderBlock('html.al', AL_LIB);
   }
 
 }
@@ -64,9 +50,9 @@ ${COMMON_STYLES}
   </tab-selector-ui>
   <space-css max></space-css>
   <ctx-al bind="current: ctx">
-    <div ctx="ui" bind="innerHTML: html.ui"></div>
-    <div ctx="mkp" bind="innerHTML: html.mkp"></div>
-    <div ctx="al" bind="innerHTML: html.al"></div>
+    <div ctx="ui" bind="innerDOM: dom.ui"></div>
+    <div ctx="mkp" bind="innerDOM: dom.mkp"></div>
+    <div ctx="al" bind="innerDOM: dom.al"></div>
   </ctx-al>
   <space-css max></space-css>
 </column-mkp>

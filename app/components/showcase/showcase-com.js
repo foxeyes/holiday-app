@@ -3,33 +3,21 @@ import {Holiday} from '../../holiday/core/holiday.js';
 export class ShowcaseCom extends Holiday {
   constructor() {
     super();
-    this.state = {
-      tagName: '',
-      demoUrl: '',
-      on: {
-        goToDemo: () => {
-          let win = window.open();
-          // @ts-ignore
-          win.location = this.state.demoUrl;
-        },
-        goToGithub: () => {
-          let win = window.open();
-          win.location = this['github-link'];
-        },
+    this.defineAccessor('data', (data) => {
+      this.state = {
+        ...data,
+        on: {
+          goToDemo: () => {
+            let win = window.open();
+            // @ts-ignore
+            win.location = this.state.demo;
+          },
+          goToGithub: () => {
+            let win = window.open();
+            win.location = this.state.gh;
+          },
+        }
       }
-    };
-    this.defineAccessor('tag-name', (name) => {
-      this.setStateProperty({
-        tagName: name,
-      });
-    });
-    this.defineAccessor('demo-url', (url) => {
-      this.setStateProperty({
-        demoUrl: url,
-      });
-    });
-    this.defineAccessor('github-link', () => {
-      return;
     });
   }
 }
@@ -73,19 +61,14 @@ ShowcaseCom.template = /*html*/ `
 </style>
 <div class="shade"></div>
 <div class="head">
-  <div class="tag-name">&lt;<span bind="textContent: tagName"></span>&gt;</div>
+  <div class="tag-name">&lt;<span bind="textContent: tag"></span>&gt;</div>
   <grid-mkp columns="min-content min-content" gap="var(--gap-mid)">
     <button-ui outline icon="cursor" bind="onclick: on.goToDemo">Demo</button-ui>
     <button-ui outline icon="github" bind="onclick: on.goToGithub">Code</button-ui>
   </grid-mkp>
 </div>
 <div class="demo">
-  <iframe frameborder="0" bind="src: demoUrl"></iframe>
+  <iframe frameborder="0" bind="src: demo"></iframe>
 </div>
 `;
-ShowcaseCom.logicAttributes = [
-  'tag-name',
-  'demo-url',
-  'github-link',
-];
 ShowcaseCom.is = 'showcase-com';

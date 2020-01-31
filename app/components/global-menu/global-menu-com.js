@@ -1,4 +1,4 @@
-import {Holiday, HdRouter} from '../../holiday/core/holiday.js';
+import {Holiday} from '../../holiday/core/holiday.js';
 import {ROUTES} from '../../routing/app-routes.js';
 
 export class GlobalMenuCom extends Holiday {
@@ -24,7 +24,7 @@ export class GlobalMenuCom extends Holiday {
     [...this.$.querySelectorAll('[route]')].forEach((btn) => {
       // @ts-ignore
       btn.onclick = () => {
-        HdRouter.applyRoute(btn.getAttribute('route'));
+        this.appRouter.applyRoute(btn.getAttribute('route'));
       };
     });
   }

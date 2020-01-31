@@ -40,14 +40,19 @@ ${COMMON_STYLES}
   <code-mkp src="./code-reference/templates/tpl-bind-attr.html" highlight></code-mkp>
   <p>Updates:</p>
   <code-mkp src="./code-reference/templates/tpl-bind-update.js" highlight></code-mkp>
-  <h2>Template Repeat</h2>
+  <h2>Template Cycles</h2>
   <p>Static data source:</p>
   <code-mkp src="./code-reference/templates/tpl-repeat-src.js" highlight></code-mkp>
   <p>Static template:</p>
   <code-mkp src="./code-reference/templates/tpl-repeat.js" highlight></code-mkp>
   <p>Dynamic data:</p>
   <code-mkp src="./code-reference/templates/tpl-repeat-dynamic.js" highlight></code-mkp>
+  <p>Performant way:</p>
+  <code-mkp src="./code-reference/templates/tpl-repeat-performance.js" highlight></code-mkp>
+  <p>PersonCard reference:</p>
+  <code-mkp src="./code-reference/templates/tpl-repeat-item-example.js" highlight></code-mkp>
   <p>For other performance sensitive cases you can use <a href="https://github.com/foxeyes/holiday/tree/master/elements/al/repeat" target="_blank">this component</a>.</p>
+  <p>More details about DocumentFragment: <a href="https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment" target="_blank">https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment</a></p>
   <h2>Syntax Highlighting</h2>
   <p>For your convenience, you can use one of the IDE extensions for HTML-syntax highlighting in ES6 Template Strings.</p>
   <p>For VS Code users, it can be "<a href="https://github.com/pushqrdx/vscode-inline-html" target="_blank">Inline HTML</a>".</p>
