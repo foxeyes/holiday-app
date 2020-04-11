@@ -9,7 +9,7 @@ ${COMMON_STYLES}
 </style>
 <column-mkp>
   <heading-layout-css>
-    <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
+    <image-mkp class="logo-img" src="assets/img/hd_min.png"></image-mkp>
     <h2>Naming Convention</h2>
   </heading-layout-css>
   <space-css max></space-css>

@@ -8,14 +8,14 @@ body {
 }
 
 :root {
-  --color-theme-1: rgb(31, 31, 30);
-  --color-theme-2: rgb(253, 235, 75);
+  --color-theme-1: rgb(236, 236, 236);
+  --color-theme-2: rgb(41, 41, 41);
   --color-theme-3: #fff;
 
-  --color-terminal: rgb(22, 255, 61);
-  --hl-color: rgb(96, 255, 247);
-  --custom-color: rgb(205, 129, 255);
-  --info-color: rgb(172, 255, 77);
+  --color-terminal: rgb(236, 0, 146);
+  --hl-color: rgb(98, 0, 255);
+  --custom-color: rgb(17, 148, 0);
+  --info-color: rgb(221, 44, 0);
 
   --color-error: rgb(252, 64, 64);
 

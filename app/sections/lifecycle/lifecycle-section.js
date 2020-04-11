@@ -9,7 +9,7 @@ ${COMMON_STYLES}
 </style>
 <column-mkp>
   <heading-layout-css>
-    <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
+    <image-mkp class="logo-img" src="assets/img/hd_min.png"></image-mkp>
     <h2>Component Lifecycle</h2>
   </heading-layout-css>
   <p>Holiday-component lifecycle is very close to

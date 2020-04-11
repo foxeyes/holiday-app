@@ -14,7 +14,7 @@ ${COMMON_STYLES}
 </style>
 <column-mkp>
   <heading-layout-css>
-    <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
+    <image-mkp class="logo-img" src="assets/img/hd_min.png"></image-mkp>
     <h2>Icons</h2>
   </heading-layout-css>
   <p>Holiday.js use icons in <a href="https://developer.mozilla.org/en-US/docs/Web/SVG" target="_blank">SVG</a> format and support custom icon sets.</p>

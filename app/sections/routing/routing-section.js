@@ -9,7 +9,7 @@ ${COMMON_STYLES}
 </style>
 <column-mkp>
   <heading-layout-css>
-    <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
+    <image-mkp class="logo-img" src="assets/img/hd_min.png"></image-mkp>
     <h2>Application Routing</h2>
   </heading-layout-css>
   <p><a href="https://github.com/foxeyes/holiday/blob/master/core/hd-router.js" target="_blank">HdRouter</a>

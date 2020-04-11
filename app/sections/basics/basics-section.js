@@ -8,7 +8,7 @@ BasicsSection.template = /*html*/ `
 ${COMMON_STYLES}
 </style>
 <column-mkp>
-<image-mkp class="head-img" src="assets/img/logo.svg"></image-mkp>
+<image-mkp class="head-img" src="assets/img/hd.png"></image-mkp>
 <h2>Lightweight and flexible UI-library for those who tired of all that js-frameworks</h2>
 <p>You should try it. And your work become Holiday. Really.</p>
 <info-css>

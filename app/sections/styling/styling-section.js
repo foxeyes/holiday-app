@@ -9,7 +9,7 @@ ${COMMON_STYLES}
 </style>
 <column-mkp>
   <heading-layout-css>
-    <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
+    <image-mkp class="logo-img" src="assets/img/hd_min.png"></image-mkp>
     <h2>Styling</h2>
   </heading-layout-css>
   <p>As a regular web-components, every Holiday-component can have it's own isolated style section in template:</p>

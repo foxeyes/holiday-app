@@ -16,9 +16,10 @@ export const COMMON_STYLES = /*css*/ `
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 240px;
+  height: 300px;
   object-fit: contain;
   object-position: center center;
+  margin-bottom: 40px;
 }
 .logo-img {
   height: 120px;
@@ -38,22 +39,10 @@ info-css {
   font-style: italic;
   padding: var(--gap-max);
   color: var(--info-color);
-  border-left: 1px dashed currentColor;
-  text-shadow: 0 0px 13px currentColor;
-  box-shadow: 0 0px 12px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
 }
-info-css::before {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: '';
-  background-color: #000;
-  pointer-events: none;
-  opacity: 0.2;
-}
+
 code-mkp[terminal] {
   color: var(--color-terminal);
 }
@@ -79,7 +68,7 @@ ul > li::before {
 a {
   color: currentColor;
   font-weight: bold;
-  text-shadow: 0 4px 6px rgba(0, 255, 200, 0.4);
+  text-shadow: 0 4px 6px rgba(0, 255, 200, 0.2);
 }
 
 ${SPACE_CSS}

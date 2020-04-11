@@ -9,7 +9,7 @@ ${COMMON_STYLES}
 </style>
 <column-mkp>
   <heading-layout-css>
-    <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
+    <image-mkp class="logo-img" src="assets/img/hd_min.png"></image-mkp>
     <h2>Application State Management</h2>
   </heading-layout-css>
   <p>Holiday.js provide flexible and performant solution for application-level state management: <a href="https://github.com/foxeyes/holiday/blob/master/core/hd-state.js" target="_blank">HdState</a>.</p>

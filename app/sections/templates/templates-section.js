@@ -9,7 +9,7 @@ ${COMMON_STYLES}
 </style>
 <column-mkp>
   <heading-layout-css>
-    <image-mkp class="logo-img" src="assets/img/logo_compact.svg"></image-mkp>
+    <image-mkp class="logo-img" src="assets/img/hd_min.png"></image-mkp>
     <h2>Templates</h2>
   </heading-layout-css>
   <p>Holiday.js provides native HTML and CSS syntax for templates inside standard JavaScript template literals.</p>
@@ -53,6 +53,10 @@ ${COMMON_STYLES}
   <code-mkp src="./code-reference/templates/tpl-repeat-item-example.js" highlight></code-mkp>
   <p>For other performance sensitive cases you can use <a href="https://github.com/foxeyes/holiday/tree/master/elements/al/repeat" target="_blank">this component</a>.</p>
   <p>More details about DocumentFragment: <a href="https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment" target="_blank">https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment</a></p>
+  <h2>Components without Shadow DOM</h2>
+  <p>Sometimes we don't need Shadow DOM in our components. For that cases, you can use "noShadow" property:</p>
+  <code-mkp src="./code-reference/templates/tpl-no-shadow.js" highlight></code-mkp>
+  <p>Then you can use classic styling approach for component's template and use direct selectors for its elements from outside.</p>
   <h2>Syntax Highlighting</h2>
   <p>For your convenience, you can use one of the IDE extensions for HTML-syntax highlighting in ES6 Template Strings.</p>
   <p>For VS Code users, it can be "<a href="https://github.com/pushqrdx/vscode-inline-html" target="_blank">Inline HTML</a>".</p>

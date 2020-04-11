@@ -47,7 +47,7 @@ AppIndex.template = /*html*/ `
 <style>
   :host {
     display: block;
-    --top-panel-color: rgba(0, 0, 0, 0.6);
+    --top-panel-color: #fff;
   }
 </style>
 <app-shell-al bind="caption: section.caption; icon: section.icon">
